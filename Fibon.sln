@@ -11,7 +11,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{61FB6601-F4F6-4F89-9021-A0A40741E621}"
 	ProjectSection(SolutionItems) = preProject
 		Scripts\buildDockerImages.sh = Scripts\buildDockerImages.sh
-		dotnetPublish.sh = dotnetPublish.sh
+		Scripts\docker-compose.yml = Scripts\docker-compose.yml
+		Scripts\dotnetPublish.sh = Scripts\dotnetPublish.sh
 	EndProjectSection
 EndProject
 Global
