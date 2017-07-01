@@ -8,6 +8,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibon.Service", "Fibon.Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibon.Messages", "Fibon.Messages\Fibon.Messages.csproj", "{751A90CD-9A9C-423E-9D72-F84C454BBBC2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{61FB6601-F4F6-4F89-9021-A0A40741E621}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\buildDockerImages.sh = Scripts\buildDockerImages.sh
+		dotnetPublish.sh = dotnetPublish.sh
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
